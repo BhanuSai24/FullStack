@@ -1,0 +1,159 @@
+/* Navbar styles */
+.navbar {
+  background-color: #5ab1eb;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar li.active {
+  font-weight: bold;
+}
+
+/* Container styles */
+.form-container,
+.table-container {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Form styles */
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-container form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-container form button {
+  padding: 10px 20px;
+  background-color: #5ab1eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Table styles */
+.table-container {
+  overflow-x: auto; /* Enable horizontal scroll if needed */
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #5ab1eb;
+  color: white;
+}
+
+/* Action icons */
+.action-icons {
+  display: flex;
+}
+
+.action-icons i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* App.css */
+
+.navbar {
+  text-align: center; /* Center-align the navbar items */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing between navbar items */
+  cursor: pointer;
+}
+
+.navbar li.active {
+  font-weight: bold;
+}
+
+.table-container {
+  margin-top: 20px; /* Add some top margin for better spacing */
+}
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.navbar ul li.active {
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+}
+.student-details-table {
+  width: 50%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.student-details-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-details-table td:first-child {
+  font-weight: bold;
+  width: 150px;
+}
